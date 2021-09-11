@@ -42,6 +42,7 @@ main{
     border-radius: 10px;
     background-color: rgb(255,255,255);
     border: 2px solid rgb(210,215,222);
+    outline:none;
 }
 .email[placeholder]{
     font-size: 1rem;
