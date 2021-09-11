@@ -1,6 +1,6 @@
 # cloud-interactive-landing-page-interview
 
-This is a simple landing page built with HTML, CSS and JavaScript
+This is a simple landing page built with HTML and CSS
 
 ## Table of contents
 
@@ -10,11 +10,12 @@ This is a simple landing page built with HTML, CSS and JavaScript
   - [Built with](#built-with)
 
 ## Overview
-This is a web application that displays images of the different breed of dogs. The application simply fetches images of different breeds of dogs from an API and displays them. The app is responsive on different screen sizes.
+This is a simple landing page built with HTML and CSS
+
 
 ### Screenshot
 
-![](https://github.com/franklynwisdom/different-breeds-of-dogs/blob/master/breeds-of-dogs-screenshot.png)
+![](https://github.com/franklynwisdom/cloud-interactive-landing-page-interview/blob/master/uba-design-landing-page.PNG)
 
 
 ### Link
