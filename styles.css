@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+main{
+    display: flex;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+
+}
+.welcome{
+    height: 100%;
+    padding-left: 5rem;
+    background-color: rgb(249,249,249);
+
+}
+
+.uba-logo{
+    margin-bottom: 4rem;
+}
+
+.uba-logo-text{
+    color: rgb(64,129,222);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.uba-welcome-text p{
+    color: rgb(142,146,154);
+    font-size: 1.2rem;
+}
+
+#uba-welcome-text--header{
+    font-size: 2.2rem;
+}
+.email{
+    width: 25rem;
+    height: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    background-color: rgb(255,255,255);
+    border: 2px solid rgb(210,215,222);
+}
+.email[placeholder]{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    padding-left: 10px;
+
+}
+.email:focus{
+    border: 2px solid rgb(21,101,216);
+}
+
+button{
+    width: 26rem;
+    background-color: rgb(99,152,229);
+    border-radius: 10px;
+    height: 3rem;
+    border: none;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.uba-welcome-text{
+    margin-bottom: 5rem;
+}
+.uba-welcome-text h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.uba-welcome-form, .uba-welcome-text , .uba-welcome-form-text{
+    margin-left: 2rem;
+}
+.uba-form-create-link a{
+    text-decoration: none;
+    color: rgb(49,119,220);
+}
+.uba-quality-tools{
+    background-color: rgb(236,236,236);
+    height: 100vh;
+}
+
+.uba-quality-analyst img {
+    width: 45rem;
+    margin-left: 2rem;
+    margin-top: -2rem;
+
+}
+  
+@media screen and (max-width: 1024px) {
+    main{
+        grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    }
+    .email{
+        width: 20rem;
+    }
+    button{
+        width: 21rem;
+    }
+    .uba-quality-analyst img {
+        width: 35rem;
+        margin-top: 9rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main{
+      grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+    .email{
+        width: 25rem;
+    }
+    button{
+        width: 26rem;
+    }
+    .uba-quality-analyst img {
+        width: 45rem;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    main{
+        justify-content: center;
+    }
+    .email{
+        width: 18rem;
+    }
+    button{
+        width: 19rem;
+    }
+    .welcome{
+        padding-left: 2rem;
+    }
+    .uba-quality-analyst img {
+        width: 33rem;
+        margin-left: -2rem;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .uba-welcome-form, .uba-welcome-text , .uba-welcome-form-text{
+        margin-left: 1rem;
+    }
+    .email{
+        width: 15rem;
+    }
+    button{
+        width: 16rem;
+    }
+    .uba-quality-analyst img {
+        width: 30rem ;
+
+    }
+}
+@media screen and (max-width: 375px) {
+    .uba-quality-analyst img {
+        width: 25rem ;
+        margin-left: -1rem;
+
+    }
+}
